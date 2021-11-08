@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Montserrat&family=Yantramanav&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<title>Pearson S & L </title>
+</head>
+<body>
+    <div class="nav-mobile-menu p-4">
+        <div class="header flex justify-content-end">
+<div class="close text-white">
+    <button onclick="closeMenu()">
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.79 20L6.39502 31.395L8.60502 33.605L20 22.21L31.395 33.605L33.605 31.395L22.21 20L33.605 8.60496L31.395 6.39496L20 17.79L8.60502 6.39496L6.39502 8.60496L17.79 20Z" fill="#FFF5F5"/>
+</svg>
+
+</button>
+
+</div>
+        </div>
+        <ul class="menu my-4">
+               <li class="p-3">Practice Areas</li>
+               <li class="p-3">Careers</li>
+               <li class="p-3">Professionals</li>
+               <li class="p-3">Pro Bono</li>
+               <li class="p-3">About</li>
+        </ul>
+        <div class="nav-cta">
+             <button class="button-dark px-5 py-3">
+                   Consultation
+               </button>
+        </div>
+    </div>
+    <nav class="navbar navbar-white p-3 ">
+       <div class="container">
+           <div class="logo">Pearson S & L</div>
+           <ul class="menu sm-none flex">
+               <li>Practice Areas</li>
+               <li>Careers</li>
+               <li>Professionals</li>
+               <li>Pro Bono</li>
+               <li>About</li>
+           </ul>
+           <div class="nav-cta sm-none">
+               <button class="button-dark px-5 py-3">
+                   Consultation
+               </button>
+           </div>
+           <div class="menu-button lg-none">
+               <button onclick="openMenu()">
+                   <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.66667 10H33.3333V13.3333H6.66667V10ZM6.66667 18.3333H33.3333V21.6667H6.66667V18.3333ZM6.66667 26.6667H33.3333V30H6.66667V26.6667Z" fill="black"/>
+</svg>
+
+               </button>
+           </div>
+       </div>
+    </nav> 
+    <div class="hero-wrap"></div>
+<header class="header">
+    <nav class="navbar navbar-trans py-3 ">
+       <div class="container">
+           <div class="logo">Pearson S & L</div>
+           <ul class="menu sm-none flex">
+               <li>Practice Areas</li>
+               <li>Careers</li>
+               <li>Professionals</li>
+               <li>Pro Bono</li>
+               <li>About</li>
+           </ul>
+           <div class="nav-cta sm-none">
+               <button class="button-dark px-5 py-3">
+                   Consultation
+               </button>
+           </div>
+           <div class="menu-button lg-none">
+               <button  onclick="openMenu()">
+                   <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.66667 10H33.3333V13.3333H6.66667V10ZM6.66667 18.3333H33.3333V21.6667H6.66667V18.3333ZM6.66667 26.6667H33.3333V30H6.66667V26.6667Z" fill="white"/>
+</svg>
+
+               </button>
+           </div>
+       </div>
+    </nav>
+   
+    <div class="hero flex container">
+         <div class="hero-text">
+          <p>Quality services for your legal endevers.A law firm built for businesses</p>
+          <h1 class="my-4">When success depends on your reputation and legal counsel, you need lawyers you can trust</h1>
+          <div class="search-form flex px-2 py-3">
+            <input type="text" placeholder="Find a lawyer or search the website...">
+            <div class="icon">
+    <svg width="30" height="30" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M27.2083 24.8316L36.175 33.7983C36.4902 34.1137 36.6671 34.5414 36.667 34.9872C36.6668 35.4331 36.4895 35.8606 36.1742 36.1758C35.8588 36.491 35.4311 36.6679 34.9852 36.6678C34.5394 36.6676 34.1118 36.4904 33.7967 36.175L24.83 27.2083C22.1495 29.2844 18.7788 30.2614 15.4035 29.9406C12.0283 29.6197 8.90205 28.025 6.6608 25.481C4.41955 22.937 3.23165 19.6347 3.33875 16.2459C3.44586 12.8571 4.83992 9.63641 7.23734 7.23899C9.63477 4.84157 12.8555 3.4475 16.2442 3.3404C19.633 3.2333 22.9353 4.4212 25.4793 6.66245C28.0234 8.9037 29.618 12.0299 29.9389 15.4052C30.2598 18.7804 29.2828 22.1512 27.2067 24.8316H27.2083ZM16.6667 26.6666C19.3188 26.6666 21.8624 25.6131 23.7377 23.7377C25.6131 21.8624 26.6667 19.3188 26.6667 16.6666C26.6667 14.0145 25.6131 11.4709 23.7377 9.59558C21.8624 7.72022 19.3188 6.66665 16.6667 6.66665C14.0145 6.66665 11.471 7.72022 9.5956 9.59558C7.72023 11.4709 6.66667 14.0145 6.66667 16.6666C6.66667 19.3188 7.72023 21.8624 9.5956 23.7377C11.471 25.6131 14.0145 26.6666 16.6667 26.6666Z" fill="#58392C"/>
+</svg>
+            </div>
+          </div>
+      </div>
+      <div class="sm-none"></div>
+      <div class="image sm-none">
+          <img src="./Images/hero-image.jpg" alt="Harvey, Mike and Louis">
+      </div>
+    </div>
+</header>
+</div>
+<div class="legal-services-wrapper py-5">
+    <div class="image-wrapper lg-none">
+    <div class="image">
+        <img src="./Images/hero-image.jpg" alt="Harvey, Mike and Louis">
+    </div>
+</div>
+<div class="container sm-full legal-services">
+   <div class="text text-center">
+      <h2>Legal services for individual, small business, and corporate clients</h2>
+       <p class="py-3 text-muted">
+       Enim nisl in gravida feugiat arcu aliquam sed hendrerit. Dictumst mattis vitae nec diam. Nisi elit sed pretium at vel, fusce mauris malesuada.
+   </p>
+   </div>
+   <div class="flex px-3 legal-services-cards">
+       <div class="service-card m-2 text-left">
+         <p class="number "><strong>1</strong></p>
+         <p class="title my-2">Corporate Finance Law</p>
+         <p class="text-muted">
+             Sed posuere mi in id amet, ipsum sagittis, ipsum. Bibendum vitae quisque vivamus venenatis faucibus purus sit pellentesque. 
+         </p>
+         <p class="link my-3"><a href="#">Read More</a></p>
+       </div>
+          <div class="service-card m-2 text-left">
+         <p class="number "><strong>2</strong></p>
+         <p class="title my-2">Property Finance</p>
+         <p class="text-muted">
+             Sed posuere mi in id amet, ipsum sagittis, ipsum. Bibendum vitae quisque vivamus venenatis faucibus purus sit pellentesque. 
+         </p>
+         <p class="link my-3"><a href="#">Read More</a></p>
+       </div>
+           <div class="service-card m-2 text-left">
+         <p class="number "><strong>3</strong></p>
+         <p class="title my-2">Acquisition Finance</p>
+         <p class="text-muted">
+             Sed posuere mi in id amet, ipsum sagittis, ipsum. Bibendum vitae quisque vivamus venenatis faucibus purus sit pellentesque. 
+         </p>
+         <p class="link my-3"><a href="#">Read More</a></p>
+       </div>
+         <div class="service-card m-2 text-left">
+         <p class="number "><strong>4</strong></p>
+         <p class="title my-2">Assets Finances</p>
+         <p class="text-muted">
+             Sed posuere mi in id amet, ipsum sagittis, ipsum. Bibendum vitae quisque vivamus venenatis faucibus purus sit pellentesque. 
+         </p>
+         <p class="link my-3"><a href="#">Read More</a></p>
+       </div>
+           <div class="service-card m-2 text-left">
+         <p class="number "><strong>5</strong></p>
+         <p class="title my-2">Derivatives</p>
+         <p class="text-muted">
+             Sed posuere mi in id amet, ipsum sagittis, ipsum. Bibendum vitae quisque vivamus venenatis faucibus purus sit pellentesque. 
+         </p>
+         <p class="link my-3"><a href="#">Read More</a></p>
+       </div>
+         <div class="service-card m-2 text-left">
+         <p class="number "><strong>6</strong></p>
+         <p class="title my-2">Capital markets</p>
+         <p class="text-muted">
+             Sed posuere mi in id amet, ipsum sagittis, ipsum. Bibendum vitae quisque vivamus venenatis faucibus purus sit pellentesque. 
+         </p>
+         <p class="link my-3"><a href="#">Read More</a></p>
+       </div>
+   </div>
+</div>
+</div>
+<div class="faq container sm-full text-center">
+     <h1 class="my-5">FAQs</h1>
+     <div class="px-3">
+     <div class="container my-4 text-left p-4 faq-header">
+        <h3 class="my-2">Who are Pearson S & L ?</h3>
+        <p class="my-2 text-muted">
+            Consequat id diam leo mauris nam nulla sapien malesuada. 
+            Dolor, mi, arcu mauris, massa ut in cursus viverra. Nam mi natoque est sed nunc. 
+            Odio ultrices vitae, faucibus blandit turpis interdum tincidunt enim. In elementum id imperdiet
+             semper neque auctor odio porttitor. 
+        </p>
+     </div>
+    </div>
+     <div class="container">
+         <div id="accordianId" role="tablist" aria-multiselectable="true">
+             <div class="card my-2">
+                 <div class="card-header flex justify-content-between" role="tab" id="section1HeaderId">
+                     <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true" aria-controls="section1ContentId">   
+                    <h3 class="mb-0">
+                 What are Perason S & L’s practice areas ? 
+         
+                     </h3>
+                         </a>
+
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                   
+                 </div>
+
+                 <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
+                     <div class="card-body text-left">
+                       Tortor platea dolor nulla lectus est. Turpis duis convallis feugiat venenatis, congue. Metus vitae lobortis scelerisque erat augue quisque. Lacus nunc, ultricies risus id sed ullamcorper a sit. Ornare purus faucibus quis a, consequat id pellentesque. Semper a sollicitudin arcu, curabitur neque quisque non eget. Enim diam at felis lectus massa. Mi volutpat id eu eget senectus. Dictum euismod massa facilisi eu a. Vestibulum suspendisse elit diam accumsan, dui, varius et convallis.
+lorem trudes
+Dictum euismod
+ euismod massa facilisi
+Vestibulum suspendisse
+                     </div>
+                 </div>
+             </div>
+             <div class="card my-2">
+                 <div class="card-header flex justify-content-between" role="tab" id="section1HeaderId">
+                     <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" aria-expanded="true" aria-controls="section2ContentId">   
+                    <h3 class="mb-0">
+                   How do i  get a lawyer from pearson S & L ?
+                     </h3>
+                         </a>
+
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                   
+                 </div>
+
+                 <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
+                     <div class="card-body text-left">
+                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure necessitatibus repellat, exercitationem explicabo totam nihil fuga reiciendis possimus esse ipsam saepe corporis minus qui voluptatem enim praesentium, labore, aliquid pariatur?
+                     </div>
+                 </div>
+             </div>
+                 <div class="card my-2">
+                 <div class="card-header flex justify-content-between" role="tab" id="section3HeaderId">
+                     <a data-toggle="collapse" data-parent="#accordianId" href="#section3ContentId" aria-expanded="true" aria-controls="section2ContentId">   
+                    <h3 class="mb-0">
+                  Where does pearson s & l practice law ?
+                     </h3>
+                         </a>
+
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                   
+                 </div>
+
+                 <div id="section3ContentId" class="collapse in" role="tabpanel" aria-labelledby="section3HeaderId">
+                     <div class="card-body text-left">
+                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, atque! Impedit itaque tempora deleniti, explicabo molestias dolorum vel nulla, incidunt id eum maiores aut at sit totam consectetur earum velit? Quas omnis rem quam.
+                     </div>
+                 </div>
+             </div>
+                <div class="card my-2">
+                 <div class="card-header flex justify-content-between" role="tab" id="section4HeaderId">
+                     <a data-toggle="collapse" data-parent="#accordianId" href="#section4ContentId" aria-expanded="true" aria-controls="section2ContentId">   
+                    <h3 class="mb-0">
+                  how do i contact pearson s & l ?
+                     </h3>
+                         </a>
+
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                   
+                 </div>
+
+                 <div id="section4ContentId" class="collapse in" role="tabpanel" aria-labelledby="section4HeaderId">
+                     <div class="card-body text-left">
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eligendi fuga commodi et possimus. A quos, pariatur, eveniet iure, eos ut blanditiis aperiam voluptatibus suscipit sapiente sunt porro et quae.
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+</div>
+<footer class="footer text-white text-center">
+    <small>Pearson S & L by <a href="">Brian Kanai</a></small>
+</footer>
+<script>
+    window.onscroll = () =>{
+     const currScroll = window.pageYOffset;
+     if (currScroll > 60) {
+        document.querySelector('.navbar-white').style.display = 'flex';
+     }
+     else{
+       document.querySelector('.navbar-white').style.display = 'none';
+     }
+    }
+    function openMenu() {
+         document.querySelector('.nav-mobile-menu').style.right = 0;
+    }
+      function closeMenu() {
+         document.querySelector('.nav-mobile-menu').style.right = '-100%';
+    }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
